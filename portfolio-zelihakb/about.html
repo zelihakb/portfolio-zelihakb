@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me!</title>
+    <link rel="stylesheet" href="css/style-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+      integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <title>About Me!</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+  </head>
+  <body>
+    <nav id="main-nav" class="nav">
+      <div class="container">
+      <img src="img/logo.png" alt="" class="logo" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/zeliha-k%C3%BC%C3%A7%C3%BCkbayraktar-134340ax/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab-fa-facebook"></i></a>
+        <a href="#"><i class="fab-fa-twitter"></i></a>
+        <a href="#"><i class="fab-fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab-fa-inkedin fa-2x"></i></a>
+      </div>
+    </div>
+    </nav> 
+   
+
+    <div class="container">
+      <div class="photo">
+        <img src="img/girl.png">
+      </div>
+      <div class="text">
+        <h1>Hakkımda</h1>
+        <p>Adım Zeliha Küçükbayraktar. Ankara'da yaşıyorum. Üniversite dönemine kadar Ankara'da eğitim aldım. Şimdi Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği 3.Sınıf öğrencisiyim. Genel olarak işitsel sanatları ve dramatik sanatlardan hoşlanırım. Gitar çalmayı, kilden bir şeyler ortaya çıkarmayı ve dizi-film izlemeyi çok severim. Yabancı dilde olan şarkıların türkçe anlam videolarını yaptığım bir YouTube kanalım var.</p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="text">
+        <h2>Beceriler</h1>
+          <ul>
+              <li>HTML ve CSS</li>
+              <li>JavaScript</li>
+              <li>Angular</li>
+              <li>Backend Geliştirme</li>
+              <li>Veritabanı Yönetimi</li>
+          </ul>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="text">
+        <h2>Deneyim</h2>
+        <ul>
+          <li>SDÜ-BİDB</li>
+          <p> Aralık 2023'te Süleyman Demirel
+            Ünversitesi Bilgi İşlem Daire Başkanlığı’nda
+            yarı zamanlı teknik servis elemanı olarak işe
+            başladım ve Haziran 2024'te bıraktım.
+            Çalıştığım süre boyunca bilgisayarın
+            donanım bölümlerine ek olarak domain
+            sistemleri hakkında da önemli ölçüde bilgi
+            edindim.</p>
+            <li>EGY Yazılım ve Bilişim Sistemleri</li>
+            <p>2024 yılı yaz döneminde zorunlu yazılım stajını yaptım. Kurum olarak çeşitli Bakanlıklara ve Büyükşehir Belediyelerine yapılan projelerde yer alma fırsatı buldum. Angular, JavaScript, Abp Framework, asp.net core dilleri üzerine üzerinde durdum. 
+            </p>
+        </ul>
+      </div>
+   </div>
+    <div class="container">
+      <h2>Son Zamanlarda En sevdiğim Şarkılardan Biri</h2>  
+    </div>
+    <div class="video-container">
+      <video width="640" height="360" controls>
+        <source src="videos/video.mp4" type="video/mp4">
+      </video>
+    </div>
+    <footer class="footer">
+      <div class="text-center p-3">
+        <h5>
+          © 2024 All Rights Reserved: 
+          <a class="text-white" href="#about.html">Zeliha Küçükbayraktar 2111012020</a>
+        </h5>
+      </div>
+      <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </footer>
+    <script>
+     
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("btn-back-to-top").style.display = "block";
+        } else {
+          document.getElementById("btn-back-to-top").style.display = "none";
+        }
+      }
+    
+      
+      document.getElementById("btn-back-to-top").onclick = function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      };
+    </script>
+    
+  </body>
+</html>
