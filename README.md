@@ -4,7 +4,7 @@ Bu benim ilk projem ve burada genel olarak okul hayatımda neler yaptığımdan 
 
 ## Başlarken
 
-Bu projeyi HTML,CSS ve JS dillerini kullanılarak yapıldı.
+Bu proje HTML ve CSS dilleri kullanılarak yapıldı.
 
 ### Gereksinimler
 
