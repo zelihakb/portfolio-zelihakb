@@ -16,5 +16,5 @@ Bu projeyi çalıştırabilmeniz için gerekli programlar:
 
 Projeyi klonlayarak üzerinde değişiklik yapabilirsiniz.
 
-### Projeye ulaşabilmek için
+### Siteye ulaşabilmek için
 -https://zelihakucukbayraktar.vercel.app
