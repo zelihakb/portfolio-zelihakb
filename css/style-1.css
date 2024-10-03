@@ -151,11 +151,11 @@ p {
 }
 
 .footer {
-  background-color: #343a40; /* Koyu bir arka plan rengi */
-  color: white; /* Beyaz metin rengi */
-  padding: 10px; /* Üst ve alt boşluk */
-  text-align: center; /* Metinlerin ortalanması */
-  position: relative; /* Back to Top butonu için referans */
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: relative;
   margin-top: 250px;
 }
 
@@ -165,27 +165,27 @@ p {
 }
 
 .footer a {
-  color: #fff; /* Beyaz renk */
+  color: #fff;
   text-decoration: none;
 }
 
 .footer a:hover {
-  color: #730101; /* Kırmızı hover efekti */
+  color: #730101;
 }
 
 #btn-back-to-top {
   position: absolute;
-  right: 20px; /* Sağdan boşluk */
-  bottom: 20px; /* Alttan boşluk */
-  background-color: #730101; /* Kırmızı buton rengi */
+  right: 20px;
+  bottom: 20px;
+  background-color: #730101;
   color: white;
-  border-radius: 50%; /* Butonun yuvarlak görünmesi */
+  border-radius: 50%;
   border: none;
   padding: 10px;
 }
 
 #btn-back-to-top:hover {
-  background-color: #730101; /* Hover efekti için koyu kırmızı */
+  background-color: #730101;
 }
 
 #btn-back-to-top i {
