@@ -8,13 +8,13 @@ Bu proje HTML ve CSS dilleri kullanılarak yapıldı.
 
 ### Gereksinimler
 
-Bu projeyi çalıştırabilmeniz için gerekli programlar:
+Bu projeyi çalıştırabilmeniz için kullanabileceğiniz programlar:
 
 - VS Code
 
 ### Kurulum
 
-Projeyi klonlayarak üzerinde değişiklik yapabilirsiniz.
+Projeyi klonlayarak masaüstünûzde görüntüleyebilirsiniz.
 
-### Siteye ulaşabilmek için [buraya](https://zelihakucukbayraktar.vercel.app) tıklayabilirsiniz!
+### Siteme ulaşabilmek için [buraya](https://zelihakucukbayraktar.vercel.app) tıklayabilirsiniz!
 
