@@ -11,9 +11,10 @@ Bu proje HTML ve CSS dilleri kullanılarak yapıldı.
 Bu projeyi çalıştırabilmeniz için gerekli programlar:
 
 - VS Code
-- npm (veya yarn)
-- Git
 
 ### Kurulum
 
 Projeyi klonlayarak üzerinde değişiklik yapabilirsiniz.
+
+### Siteye ulaşabilmek için [buraya](https://zelihakucukbayraktar.vercel.app) tıklayabilirsiniz!
+
